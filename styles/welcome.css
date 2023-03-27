@@ -1,0 +1,146 @@
+.welcome-content {
+  display: flex;
+}
+.page-content {
+  background-color: white;
+  width: 100%;
+  min-width: 1024px;
+  height: 1000px;
+  padding-top: 50px;
+}
+/* Intro du pays dans l'acceuil*/
+.country-description {
+  margin: 0px;
+  padding: 0px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.country-description-top {
+  margin: 0px;
+  padding: 0px;
+
+  display: inline-flex;
+  flex-direction: row;
+  width: 1000px;
+}
+.country-icons {
+  width: 64px;
+}
+.country-icons-text {
+  display: inline-block;
+}
+.country-description-left {
+  margin: 0px;
+  padding: 0px;
+  flex: 1;
+  display: inline-block;
+
+  height: 500px;
+}
+.country-text-left {
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 250px;
+}
+.country-name-left {
+  margin: 0;
+  padding: 0;
+  font-size: 56px;
+  font-family: Roboto;
+  display: block;
+}
+.country-intro-left {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.country-icons-demography-left {
+  display: inline-block;
+}
+.country-icons-geography-left {
+  display: inline-block;
+}
+.country-description-right {
+  margin: 0px;
+  padding: 0px;
+  flex: 1;
+  display: inline-block;
+  
+}
+.country-flag-right {
+  width: 500px;
+}
+.country-description-bottom {
+  margin: 0px;
+  padding: 0px;
+
+  display: block;
+}
+.country-more-info-buttom {
+  display: inline-block;
+  width: 1000px;
+}
+/* problemes dans lacceuil*/
+
+.city-problems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 400px;
+  padding: 40px;
+  background-color: black;
+}
+.poor-problem {
+  width: 300px;
+  margin-right: 10px;
+  background-color: gray;
+}
+.political-problem {
+  width: 300px;
+  margin-right: 10px;
+  background-color: gray;
+}
+.corruption-problem {
+  width: 300px;
+  margin-right: 10px;
+  background-color: gray;
+}
+.migration-problem {
+  width: 300px;
+  background-color: gray;
+}
+.title-problem {
+  color: white;
+
+  width: 100%;
+  text-align: center;
+
+  font-size: 36px;
+}
+.image-problem {
+  color: black;
+}
+.intro-problem {
+  color: black;
+}
+.more-info-button {
+  color: black;
+}
+
+
+
+
+
+.bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
